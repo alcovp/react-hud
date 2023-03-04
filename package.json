@@ -1,6 +1,6 @@
 {
     "name": "react-js-hud",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "",
     "repository": {
         "type": "git",
@@ -18,7 +18,10 @@
         "prepare": "npm run build",
         "prepublishOnly": "npm test && npm run lint"
     },
-    "keywords": [],
+    "keywords": [
+        "react",
+        "typescript"
+    ],
     "files": [
         "dist"
     ],
