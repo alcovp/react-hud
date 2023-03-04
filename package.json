@@ -1,10 +1,10 @@
 {
-    "name": "react-hud",
+    "name": "react-js-hud",
     "version": "1.0.0",
     "description": "",
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/alcovp/react-hud.git"
+        "url": "git+https://github.com/alcovp/react-js-hud.git"
     },
     "main": "./dist/cjs/index.js",
     "module": "./dist/esm/index.js",
@@ -19,8 +19,14 @@
         "prepublishOnly": "npm test && npm run lint"
     },
     "keywords": [],
-    "author": "",
+    "files": [
+        "dist"
+    ],
+    "author": "Vladimir Puchkovskii",
     "license": "MIT",
+    "peerDependencies": {
+        "react": ">=17"
+    },
     "devDependencies": {
         "@testing-library/react": "^14.0.0",
         "@types/jest": "^29.4.0",
