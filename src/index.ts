@@ -1,3 +1,4 @@
-import HUD from './component/App';
+import HUD from './component/HUD';
+import useHUD from './useHUD';
 
-export {HUD};
+export {HUD, useHUD};

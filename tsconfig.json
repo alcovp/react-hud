@@ -3,11 +3,13 @@
         "src"
     ],
     "exclude": [
-        "dist",
+        "cjs",
+        "esm",
         "node_modules"
     ],
     "compilerOptions": {
-        "module": "esnext",
+        "module": "ESNext",
+        "target": "ESNext",
         "lib": [
             "dom",
             "esnext"
@@ -15,14 +17,17 @@
         "importHelpers": true,
         "declaration": true,
         "sourceMap": true,
-        "rootDir": "./src",
-        "outDir": "./dist/esm",
+        "rootDirs": [
+            "./src",
+            "./dev"
+        ],
+        "outDir": "./esm",
         "strict": true,
         "noImplicitReturns": true,
         "noFallthroughCasesInSwitch": true,
         "noUnusedLocals": true,
         "noUnusedParameters": true,
-        "moduleResolution": "node",
+        "moduleResolution": "Node",
         "jsx": "react",
         "esModuleInterop": true,
         "skipLibCheck": true,

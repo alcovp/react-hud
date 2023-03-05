@@ -7,6 +7,6 @@ import {HUD} from '../src'
 
 describe('Common render', () => {
     it('renders without crashing', () => {
-        render(<HUD uselessProp={'alala'} />)
+        render(<HUD />)
     })
 })
